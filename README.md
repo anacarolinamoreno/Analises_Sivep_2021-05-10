@@ -41,9 +41,9 @@ plot(ggplot_covid_sp_dia)
 ![](README_files/figure-gfm/ggplot_covid_sp_dia2-1.png)<!-- -->
 
 [Download da tabela em
-CSV](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/docs/covid_sp_dia_absoluto.csv)
+CSV](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/tree/master/docs/covid_sp_dia_absoluto.csv)
 \| [Download da arte em
-SVG](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/docs/grafico_covid_sp_dia_totalabsoluto.svg)
+SVG](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/tree/master/docs/grafico_covid_sp_dia_totalabsoluto.svg)
 
 #### 2- MÉDIA MÓVEL de internações e mortes por dia
 
@@ -66,9 +66,9 @@ plot(ggplot_covid_sp_dia_media)
 ![](README_files/figure-gfm/ggplot_covid_sp_dia_media2-1.png)<!-- -->
 
 [Download da tabela em
-CSV](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/docs/covid_sp_dia_media_movel.csv)
+CSV](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/tree/master/docs/covid_sp_dia_media_movel.csv)
 \| [Download da arte em
-SVG](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/docs/grafico_covid_sp_dia_mediamovel.svg)
+SVG](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/tree/master/docs/grafico_covid_sp_dia_mediamovel.svg)
 
 #### 3- MORTES por Covid por MÊS e por FAIXA ETÁRIA
 
@@ -87,6 +87,8 @@ SVG](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/docs/grafico
     início de junho.
 -   No entanto, entre as pessoas com 80 anos ou mais, o número de mortes
     ocorridas em abril é muito menor (até agora) do que o de março.
+-   **IMPORTANTE:** Isso AINDA não significa que estamos vendo o efeito
+    da vacina, já que os dados ainda são muito preliminares.
 
 ``` r
 plot(ggplot_obitos_covid_sp_idade_20)
@@ -95,6 +97,6 @@ plot(ggplot_obitos_covid_sp_idade_20)
 ![](README_files/figure-gfm/ggplot_covid_sp_idade2-1.png)<!-- -->
 
 [Download da tabela em
-CSV](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/docs/obitos_covid_sp_mes_idade.csv)
+CSV](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/tree/master/docs/obitos_covid_sp_mes_idade.csv)
 \| [Download da arte em
-SVG](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/docs/grafico_obitos_covid_sp_idade_20.svg)
+SVG](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/tree/master/docs/grafico_obitos_covid_sp_idade_20.svg)

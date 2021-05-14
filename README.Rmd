@@ -146,7 +146,7 @@ ggplot_covid_sp_dia <- read_rds("data/covid_sp_dia.rds") %>%
 plot(ggplot_covid_sp_dia)
 ```
 
-[Download da tabela em CSV](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/docs/covid_sp_dia_absoluto.csv) | [Download da arte em SVG](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/docs/grafico_covid_sp_dia_totalabsoluto.svg)
+[Download da tabela em CSV](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/tree/master/docs/covid_sp_dia_absoluto.csv) | [Download da arte em SVG](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/tree/master/docs/grafico_covid_sp_dia_totalabsoluto.svg)
 
 
 #### 2- MÉDIA MÓVEL de internações e mortes por dia
@@ -263,7 +263,7 @@ ggplot_covid_sp_dia_media <- read_rds("data/covid_sp_dia_media.rds") %>%
 plot(ggplot_covid_sp_dia_media)
 ```
 
-[Download da tabela em CSV](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/docs/covid_sp_dia_media_movel.csv) | [Download da arte em SVG](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/docs/grafico_covid_sp_dia_mediamovel.svg)
+[Download da tabela em CSV](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/tree/master/docs/covid_sp_dia_media_movel.csv) | [Download da arte em SVG](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/tree/master/docs/grafico_covid_sp_dia_mediamovel.svg)
 
 
 
@@ -319,10 +319,11 @@ ggplot_obitos_covid_sp_idade_20 <- read_rds("data/obitos_covid_sp_idade_20.rds")
 * Entre as duas faixas etárias de idosos (60 a 79 anos, e 80 anos ou mais), por enquanto abril ainda tem menos mortes registradas do que março.
 * É possível que, para a faixa de 60 a 79 anos, isso ainda possa mudar, já que o total preliminar de abril já se aproxima do total de março, e os dados de abril só devem estar mais consolidados no início de junho.
 * No entanto, entre as pessoas com 80 anos ou mais, o número de mortes ocorridas em abril é muito menor (até agora) do que o de março.
+* **IMPORTANTE:** Isso AINDA não significa que estamos vendo o efeito da vacina, já que os dados ainda são muito preliminares.
 
 ```{r ggplot_covid_sp_idade2, message=F, warning=F}
 
 plot(ggplot_obitos_covid_sp_idade_20)
 ```
 
-[Download da tabela em CSV](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/docs/obitos_covid_sp_mes_idade.csv) | [Download da arte em SVG](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/docs/grafico_obitos_covid_sp_idade_20.svg)
+[Download da tabela em CSV](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/tree/master/docs/obitos_covid_sp_mes_idade.csv) | [Download da arte em SVG](https://github.com/anacarolinamoreno/Analises_Sivep_2021-05-10/tree/master/docs/grafico_obitos_covid_sp_idade_20.svg)
